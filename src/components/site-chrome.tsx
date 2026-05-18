@@ -163,5 +163,3 @@ export function SiteFooter({ copy }: { copy: SiteCopy }) {
     </footer>
   );
 }
-  );
-}
