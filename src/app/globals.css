@@ -1225,6 +1225,10 @@ body {
   }
 }
 
+.mobile-inventory-cta {
+  display: none;
+}
+
 .hero-banner-cta {
   position: absolute;
   /* Aligned with the headline text baked into the banner image (~24% from left) */
