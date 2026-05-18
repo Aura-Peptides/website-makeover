@@ -144,7 +144,10 @@ export function ProductDirectory({ copy, products }: ProductDirectoryProps) {
   }, []);
 
   return (
-    <section className="catalog-section product-directory" id="products">
+    <section
+      className={`catalog-section product-directory ${isMobileFiltersOpen ? "mobile-filters-open" : "mobile-filters-closed"}`}
+      id="products"
+    >
       <div className="section-heading catalog-heading">
         <div>
           <p>{copy.catalog.subtitle}</p>
@@ -161,7 +164,26 @@ export function ProductDirectory({ copy, products }: ProductDirectoryProps) {
         </div>
       </div>
 
-      <div className="storefront-catalog-layout">
+      <button
+        type="button"
+        className="mobile-filters-toggle"
+        aria-expanded={isMobileFiltersOpen}
+        aria-controls="mobile-filters-region"
+        onClick={() => setIsMobileFiltersOpen((value) => !value)}
+      >
+        <span className="mobile-filters-toggle-label">
+          {copy.catalog.filtersTitle} &amp; {copy.catalog.sortBy}
+        </span>
+        <small>
+          {activeGroupLabel} · {filteredProducts.length}/{products.length}
+        </small>
+        <svg aria-hidden="true" viewBox="0 0 12 8" width="12" height="8">
+          <path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
+
+      <div className="storefront-catalog-layout" id="mobile-filters-region">
+
         <aside className="catalog-filter-panel" aria-label={copy.catalog.filtersTitle}>
           <div>
             <p className="eyebrow">{copy.catalog.filtersTitle}</p>
