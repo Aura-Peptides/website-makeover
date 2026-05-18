@@ -1143,7 +1143,7 @@ body {
   padding: 16px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.1);
   opacity: 0;
   pointer-events: none;
@@ -1171,7 +1171,7 @@ body {
 
 .icon-button {
   border-color: var(--border-light);
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
   box-shadow: var(--shadow-soft);
 }
@@ -1296,7 +1296,7 @@ h3 {
 .button-secondary:focus-visible,
 .button-ghost:focus-visible {
   border-color: rgba(168, 121, 56, 0.36);
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .research-section {
@@ -1325,7 +1325,7 @@ h3 {
 }
 
 .catalog-section {
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .brand-banner {
@@ -1564,7 +1564,7 @@ h3 {
   min-height: 410px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     transform 180ms ease,
@@ -1608,7 +1608,7 @@ h3 {
   padding: 16px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     transform 180ms ease,
@@ -1760,7 +1760,7 @@ h3 {
 .product-checkout-panel {
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
 }
 
@@ -1797,7 +1797,7 @@ h3 {
 .product-checkout-panel .quantity-stepper {
   grid-template-columns: 40px 46px 40px;
   border: 1px solid rgba(122, 85, 36, 0.44);
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: 0 10px 24px rgba(122, 85, 36, 0.12);
 }
 
@@ -1816,7 +1816,7 @@ h3 {
 
 .product-checkout-panel .quantity-stepper span {
   min-height: 40px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
   font-weight: 600;
 }
@@ -1896,7 +1896,7 @@ h3 {
 .cart-page-empty {
   border: 1px solid var(--border-light);
   border-radius: 18px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
 }
 
@@ -1948,7 +1948,7 @@ h3 {
   overflow: hidden;
   border: 1px solid var(--border-light);
   border-radius: 12px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     border-color 180ms ease,
@@ -1984,7 +1984,7 @@ h3 {
   padding: 16px;
   border: 1px solid rgba(232, 237, 243, 0.92);
   border-radius: 16px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: 0 26px 80px rgba(0, 0, 0, 0.24);
   animation: coa-dialog-in 220ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -2183,7 +2183,7 @@ h3 {
   gap: 18px;
   align-items: start;
   padding: clamp(44px, 7vw, 82px) clamp(18px, 4vw, 56px);
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .cart-page-section:has(.cart-page-empty) {
@@ -2313,14 +2313,14 @@ h3 {
 .newsletter-band input {
   border: 1px solid var(--border-light);
   border-radius: 999px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
 }
 
 .support-form textarea {
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
 }
 
@@ -2332,7 +2332,7 @@ h3 {
 .category-tabs button {
   justify-content: flex-start;
   border-color: var(--border-light);
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-muted);
 }
 
@@ -2361,7 +2361,7 @@ h3 {
   padding: 0 14px;
   border: 1px solid var(--border-light);
   border-radius: 999px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-muted);
   box-shadow: var(--shadow-soft);
   font-size: 0.84rem;
@@ -2392,7 +2392,7 @@ h3 {
   padding: 18px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
 }
 
@@ -2438,7 +2438,7 @@ h3 {
   min-height: 48px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
   font: inherit;
   outline: none;
@@ -2489,7 +2489,7 @@ h3 {
   padding: 0 12px;
   border-color: var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-muted);
   box-shadow: none;
   text-align: left;
@@ -2531,7 +2531,7 @@ h3 {
   padding: 14px 16px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
 }
 
@@ -2556,7 +2556,7 @@ h3 {
   min-width: 0;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     transform 180ms ease,
@@ -2664,7 +2664,7 @@ h3 {
   gap: 12px;
   padding: 28px;
   border-color: var(--border-light);
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   text-align: center;
 }
@@ -2695,7 +2695,7 @@ h3 {
 .status-panel {
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     transform 180ms ease,
@@ -2845,7 +2845,7 @@ h3 {
   padding: 20px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
 }
 
@@ -2972,7 +2972,7 @@ h3 {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 520px);
   gap: 20px;
   align-items: center;
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .form-band > div {
@@ -2988,7 +2988,7 @@ h3 {
   gap: 10px;
   border: 1px solid var(--border-light);
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: var(--body-text);
   font-weight: 700;
   box-shadow: var(--shadow-soft);
@@ -3055,7 +3055,7 @@ h3 {
 .faq-layout {
   display: grid;
   gap: 22px;
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .faq-page-layout {
@@ -3094,7 +3094,7 @@ summary {
   display: grid;
   gap: clamp(28px, 4vw, 46px);
   padding: clamp(124px, 13vw, 172px) clamp(18px, 4vw, 56px) clamp(62px, 8vw, 104px);
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .faq-page-heading {
@@ -3137,7 +3137,7 @@ summary {
   padding: 0;
   border: 1px solid var(--border-light);
   border-radius: 22px;
-  background: #ffffff;
+  background: #f4f1ea;
   box-shadow: var(--shadow-soft);
   transition:
     transform 180ms ease,
@@ -3265,7 +3265,7 @@ summary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .coa-card {
@@ -3292,7 +3292,7 @@ summary {
 .form-page-section,
 .contact-layout,
 .policy-list {
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 .support-form {
@@ -3483,7 +3483,7 @@ summary {
   gap: 14px;
   padding: 28px 32px 96px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #f4f1ea;
   color: #000000;
   box-shadow: 0 28px 90px rgba(0, 0, 0, 0.32);
 }
@@ -3530,7 +3530,7 @@ summary {
   justify-content: center;
   padding: 20px 32px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #f4f1ea;
 }
 
 @media (max-width: 1120px) {
@@ -3878,7 +3878,7 @@ summary {
   .catalog-sort select {
     padding-inline: 16px 46px;
     border-color: rgba(168, 121, 56, 0.2);
-    background-color: #ffffff;
+    background-color: #f4f1ea;
     box-shadow: var(--shadow-soft);
     font-weight: 700;
   }
