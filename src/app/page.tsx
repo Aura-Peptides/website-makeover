@@ -42,7 +42,7 @@ export default function Home() {
           const Icon = trustIcons[index] ?? ShieldCheck;
           return (
             <article key={item.title}>
-              <Icon aria-hidden="true" />
+              <Icon aria-hidden="true" className="lucide lucide-shield-check text-4xl font-thin border-0 font-sans h-[100px] w-[70px]" />
               <div>
                 <h3>{item.title}</h3>
                 <p>{item.body}</p>
