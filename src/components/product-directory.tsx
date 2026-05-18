@@ -21,24 +21,22 @@ type ProductDirectoryProps = {
 
 const productGroups = [
   {
-    id: "powders",
-    label: (copy: ProductDirectoryCopy) => copy.navigation.powders,
-    filter: (product: Product) => product.category === "peptides",
+    id: "peptides",
+    label: (copy: ProductDirectoryCopy) => copy.navigation.peptides,
+    filter: (product: Product) => product.category === "peptides" && product.id !== "cjc-1295-dac-10mg",
   },
   {
     id: "stacks",
     label: (copy: ProductDirectoryCopy) => copy.navigation.stacks,
-    filter: (product: Product) => product.category === "stacks",
+    filter: (product: Product) => product.id === "cjc-1295-dac-10mg",
   },
   {
-    id: "bac-water",
-    label: (copy: ProductDirectoryCopy) => copy.navigation.bacWater,
-    filter: (product: Product) => product.id.startsWith("bacterial-water"),
-  },
-  {
-    id: "needles-wipes",
-    label: (copy: ProductDirectoryCopy) => copy.navigation.needlesWipes,
-    filter: (product: Product) => product.id === "needles-x10" || product.id === "sanitary-wipes-x10",
+    id: "essentials",
+    label: (copy: ProductDirectoryCopy) => copy.navigation.essentials,
+    filter: (product: Product) =>
+      product.id.startsWith("bacterial-water") ||
+      product.id === "needles-x10" ||
+      product.id === "sanitary-wipes-x10",
   },
 ] as const;
 
