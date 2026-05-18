@@ -1436,19 +1436,43 @@ h3 {
 
 .popular-products-heading {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 32px;
   text-align: center;
 }
 
 .popular-products-heading h2 {
   margin-bottom: 0;
+  color: var(--gold-strong);
+  font-family:
+    "Cormorant Garamond",
+    "Playfair Display",
+    "Didot",
+    "Bodoni 72",
+    Garamond,
+    "Times New Roman",
+    serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: clamp(2.2rem, 3.6vw, 3.4rem);
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+}
+
+.popular-products-heading h2::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 1px;
+  margin: 14px auto 0;
+  background: var(--gold);
+  opacity: 0.7;
 }
 
 .popular-product-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 350px));
+  grid-template-columns: repeat(4, minmax(0, 320px));
   justify-content: center;
-  gap: clamp(12px, 1.4vw, 18px);
+  gap: clamp(16px, 1.6vw, 24px);
 }
 
 .popular-product-card {
@@ -1456,38 +1480,38 @@ h3 {
   width: 100%;
   min-height: 0;
   align-content: start;
-  gap: 9px;
-  padding: 12px;
-  border: 1px solid var(--border-light);
-  border-radius: 8px;
-  background: #f4f1ea;
-  box-shadow: var(--shadow-soft);
+  gap: 14px;
+  padding: 18px 18px 20px;
+  border: 1px solid rgba(168, 121, 56, 0.18);
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(20, 16, 10, 0.04);
   transition:
-    transform 180ms ease,
-    box-shadow 180ms ease,
-    border-color 180ms ease;
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
 }
 
 .popular-product-card:hover {
-  border-color: rgba(168, 121, 56, 0.3);
-  box-shadow: var(--shadow-hover);
-  transform: translateY(-5px);
+  border-color: rgba(168, 121, 56, 0.45);
+  box-shadow: 0 18px 38px -22px rgba(20, 16, 10, 0.35);
+  transform: translateY(-4px);
 }
 
 .popular-product-link {
   display: grid;
-  gap: 10px;
+  gap: 12px;
 }
 
 .popular-product-media {
   display: grid;
-  width: 350px;
-  max-width: 100%;
-  height: 400px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  height: auto;
   place-items: center;
   overflow: hidden;
-  border: 1px solid rgba(168, 121, 56, 0.18);
-  border-radius: 8px;
+  border: 1px solid rgba(168, 121, 56, 0.12);
+  border-radius: 6px;
   background: #f4f1ea;
 }
 
@@ -1498,7 +1522,7 @@ h3 {
   box-sizing: border-box;
   object-fit: contain;
   object-position: center;
-  padding: 8px;
+  padding: 14px;
 }
 
 .popular-product-mark {
@@ -1516,11 +1540,14 @@ h3 {
 .popular-product-info {
   display: grid;
   gap: 4px;
+  padding-top: 2px;
 }
 
 .popular-product-card strong {
   color: var(--body-text);
-  font-size: 0.92rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .popular-product-card small {
@@ -1530,24 +1557,26 @@ h3 {
 }
 
 .popular-product-card em {
-  margin-top: auto;
-  color: var(--gold-soft);
-  font-size: 0.9rem;
+  margin-top: 2px;
+  color: var(--gold-strong);
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .popular-product-actions {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 8px;
+  margin-top: 4px;
 }
 
 .popular-product-actions .button {
   width: 100%;
-  min-height: 36px;
+  min-height: 40px;
   justify-content: center;
-  padding: 0 8px;
+  padding: 0 10px;
   font-size: clamp(0.72rem, 0.85vw, 0.8rem);
   white-space: normal;
   text-align: center;
