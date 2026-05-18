@@ -1210,11 +1210,18 @@ body {
 }
 
 @media (max-width: 640px) {
+  .hero-band {
+    height: auto;
+    aspect-ratio: 1080 / 1920;
+  }
   .hero-banner-image-desktop {
     display: none;
   }
   .hero-banner-image-mobile {
     display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
