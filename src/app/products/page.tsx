@@ -16,7 +16,16 @@ export default function ProductsPage() {
           width={2545}
           height={578}
           priority
-          className="hero-banner-image"
+          className="hero-banner-image hero-banner-image-desktop"
+          unoptimized
+        />
+        <Image
+          src="https://ddeti5s7lf.ufs.sh/f/Hg8H2R6loRITo8oT1TLCDcOEtyfaW1PgeRVqTvd2xZs6LAlz"
+          alt={copy.navigation.products}
+          width={1080}
+          height={1920}
+          priority
+          className="hero-banner-image hero-banner-image-mobile"
           unoptimized
         />
       </section>
