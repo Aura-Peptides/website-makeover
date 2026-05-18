@@ -187,25 +187,6 @@ export function SiteFooter({ copy }: { copy: SiteCopy }) {
         </div>
       </div>
 
-      <div className="footer-links">
-        <section>
-          <h3>{copy.navigation.primaryLabel}</h3>
-          <Link href="/">{copy.navigation.home}</Link>
-          <Link href="/products">{copy.navigation.products}</Link>
-          <Link href="/info">{copy.navigation.info}</Link>
-          <Link href="/faqs">{copy.navigation.faqs}</Link>
-          <Link href="/contact-us">{copy.navigation.contact}</Link>
-        </section>
-        <section>
-          <h3>{copy.navigation.products}</h3>
-          <Link href="/products#peptides">{copy.navigation.peptides}</Link>
-          <Link href="/products#stacks">{copy.navigation.stacks}</Link>
-          <Link href="/products#essentials">{copy.navigation.essentials}</Link>
-          <a href={copy.footer.telegramUrl} target="_blank" rel="noreferrer">
-            {copy.footer.telegram}
-          </a>
-        </section>
-      </div>
 
       <div className="footer-disclaimer">
         <h2>{copy.footer.newsletterTitle}</h2>
