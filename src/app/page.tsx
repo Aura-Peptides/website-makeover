@@ -27,7 +27,16 @@ export default function Home() {
           width={2545}
           height={578}
           priority
-          className="hero-banner-image"
+          className="hero-banner-image hero-banner-image-desktop"
+          unoptimized
+        />
+        <Image
+          src="https://ddeti5s7lf.ufs.sh/f/Hg8H2R6loRITszQTQIZq0kUbwGPrVIu54g9stAaRDflqvjin"
+          alt="Aura Peptides"
+          width={1080}
+          height={1920}
+          priority
+          className="hero-banner-image hero-banner-image-mobile"
           unoptimized
         />
         <Link className="button button-secondary hero-banner-cta px-[30px] py-0 my-[5px]" href="/products">
