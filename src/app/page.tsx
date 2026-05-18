@@ -39,12 +39,18 @@ export default function Home() {
           className="hero-banner-image hero-banner-image-mobile"
           unoptimized
         />
-        <Link className="button button-secondary hero-banner-cta px-[30px] py-0 my-[5px]" href="/products">
+        <Link className="button button-secondary hero-banner-cta hero-banner-cta-desktop px-[30px] py-0 my-[5px]" href="/products">
           Search Inventory
         </Link>
       </section>
 
       <HomePopularProducts copy={copy} />
+
+      <div className="mobile-inventory-cta">
+        <Link className="button button-secondary" href="/products">
+          Search Inventory
+        </Link>
+      </div>
 
       <section className="trust-row">
         {copy.home.trust.map((item, index) => {
