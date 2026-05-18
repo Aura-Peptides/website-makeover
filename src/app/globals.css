@@ -1215,6 +1215,9 @@ body {
   }
   .hero-banner-image-mobile {
     display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
 }
 
