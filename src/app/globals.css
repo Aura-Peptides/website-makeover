@@ -1486,9 +1486,9 @@ h3 {
   height: auto;
   place-items: center;
   overflow: hidden;
-  border: 1px solid rgba(168, 121, 56, 0.12);
-  border-radius: 6px;
-  background: #f4f1ea;
+  border: none;
+  border-radius: 12px;
+  background: #ececec;
 }
 
 .product-card-image {
@@ -1498,7 +1498,7 @@ h3 {
   box-sizing: border-box;
   object-fit: contain;
   object-position: center;
-  padding: 14px;
+  padding: 36px 28px;
 }
 
 .popular-product-mark {
