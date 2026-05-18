@@ -63,6 +63,7 @@ export function ProductDirectory({ copy, products }: ProductDirectoryProps) {
   const [activeGroupId, setActiveGroupId] = useState<ProductGroupId>("all");
   const [searchTerm, setSearchTerm] = useState("");
   const [sortId, setSortId] = useState<SortId>("default");
+  const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const normalizedSearchTerm = normalizeSearchValue(searchTerm);
 
   function matchesSearch(product: Product) {
