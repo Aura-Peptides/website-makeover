@@ -3856,10 +3856,11 @@ summary {
   .mobile-inventory-cta {
     display: flex;
     justify-content: center;
-    padding: 24px 14px;
+    padding: 24px 14px 0;
   }
 
   .popular-products {
+    padding-top: 24px;
     padding-inline: 14px;
   }
 
