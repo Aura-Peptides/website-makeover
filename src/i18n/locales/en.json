@@ -1,0 +1,406 @@
+{
+  "meta": {
+    "title": "Aura Peptides | Research Peptides Australia",
+    "description": "Aura Peptides supplies research-use peptides, stacks, and essentials across Australia."
+  },
+  "navigation": {
+    "home": "Home",
+    "info": "Info",
+    "shop": "Shop",
+    "categories": "Categories",
+    "peptides": "Peptides",
+    "stacks": "Stacks",
+    "essentials": "Essentials",
+    "topProducts": "Top Products",
+    "newArrivals": "New Arrivals",
+    "faqs": "FAQs",
+    "coa": "COA Library",
+    "orderTracking": "Order Tracking",
+    "contact": "Contact Us",
+    "cart": "Cart",
+    "primaryLabel": "Primary navigation",
+    "products": "Products",
+    "productDirectory": "Products",
+    "powders": "Powders",
+    "bacWater": "BAC Water",
+    "needlesWipes": "Needles & Wipes",
+    "support": "Support",
+    "company": "Company",
+    "terms": "Terms of Service",
+    "returns": "Refunds & Returns",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "hero": {
+    "eyebrow": "Australia's most trusted peptide source",
+    "title": "Aura Peptides",
+    "description": "Specialized research peptides, blends, and essentials supplied for laboratory research with a clean, research-first ordering experience.",
+    "primaryAction": "View Info",
+    "secondaryAction": "FAQ",
+    "researchOnly": "For laboratory research use only. Not for human or animal consumption."
+  },
+  "home": {
+    "discoveryTitle": "Where Research Supply Starts Clean",
+    "discoveryBody": "Aura Peptides keeps the catalog focused on high-demand research materials, clear pack sizes, and straightforward fulfillment for Australian researchers.",
+    "discoveryAction": "View Info",
+    "popularEyebrow": "Most requested",
+    "popularTitle": "Most Popular Products",
+    "popularBody": "Quick access to the products customers ask for most often.",
+    "reviewsEyebrow": "",
+    "reviewsTitle": "Built for clean ordering",
+    "reviewsBody": "Customer Feedback",
+    "bannerLabel": "Aura Peptides brand banner",
+    "bannerWords": ["Performance", "Strength", "Purpose"],
+    "trust": [
+      {
+        "title": "Third-Party Tested",
+        "body": "Batch documentation and authentication are prioritized for research supply confidence."
+      },
+      {
+        "title": "Australian Dispatch",
+        "body": "Orders are prepared for Australian delivery with checkout in AUD."
+      },
+      {
+        "title": "Research Support",
+        "body": "Support is limited to ordering, shipping, product documentation, and account questions."
+      }
+    ],
+    "reviews": [
+      {
+        "quote": "The catalog is easy to scan and pack sizes are clear before checkout.",
+        "author": "Product clarity",
+        "detail": "Feedback theme",
+        "rating": 5
+      },
+      {
+        "quote": "The research-use restrictions are visible throughout the ordering flow.",
+        "author": "Compliance focus",
+        "detail": "Feedback theme",
+        "rating": 4
+      },
+      {
+        "quote": "The product pages make it straightforward to compare blends and essentials.",
+        "author": "Product navigation",
+        "detail": "Feedback theme",
+        "rating": 5
+      },
+      {
+        "quote": "Support is focused on order, shipping, and documentation questions.",
+        "author": "Support experience",
+        "detail": "Feedback theme",
+        "rating": 4
+      },
+      {
+        "quote": "The checkout flow keeps pricing in AUD and product details close at hand.",
+        "author": "Checkout clarity",
+        "detail": "Feedback theme",
+        "rating": 5
+      }
+    ]
+  },
+  "catalog": {
+    "title": "Products",
+    "subtitle": "Browse the Aura Peptides products currently available for laboratory research supply.",
+    "searchLabel": "Search catalog",
+    "searchPlaceholder": "Search peptides, stacks, essentials",
+    "noResults": "No products match that search.",
+    "clearSearch": "Clear search",
+    "all": "All",
+    "peptides": "Peptides",
+    "stacks": "Stacks and blends",
+    "essentials": "Essentials",
+    "bulkNote": "Order in bulk and save. Message us to enquire.",
+    "add": "Add to cart",
+    "quantity": "Qty",
+    "inCart": "In cart",
+    "composition": "Blend",
+    "researchBadge": "Research use only",
+    "activeFilters": "Active filters",
+    "formsOfGoods": "Forms of goods",
+    "showing": "Showing Aura Peptides products",
+    "sortLabel": "Default sorting",
+    "sortBy": "Sort by",
+    "sortDefault": "Featured",
+    "sortName": "Name",
+    "sortPriceLow": "Price: low to high",
+    "sortPriceHigh": "Price: high to low",
+    "filtersTitle": "Filters",
+    "showingTemplate": "Showing {count} of {total} products",
+    "catalogSummary": "Catalog summary",
+    "totalProducts": "products",
+    "viewProduct": "View product"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "No products in the cart.",
+    "emptyHint": "Add products from the catalog to start checkout.",
+    "subtotal": "Subtotal",
+    "savings": "Promo savings",
+    "total": "Total",
+    "free": "Free",
+    "checkout": "Checkout with Stripe",
+    "processing": "Creating checkout",
+    "clear": "Clear cart",
+    "remove": "Remove",
+    "continueShopping": "Continue shopping",
+    "viewCart": "View cart",
+    "added": "Added to cart",
+    "close": "Close cart",
+    "open": "Open cart",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "researchConfirm": "I confirm these products are being purchased for laboratory research use only and are not for human or animal consumption.",
+    "freeNeedlesUnlocked": "Needles x10 are free on orders over $150.",
+    "freeNeedlesLocked": "Add more eligible products to unlock free needles x10 over $150.",
+    "errors": {
+      "empty_cart": "Add at least one product before checkout.",
+      "research_required": "Confirm the research-use acknowledgement before checkout.",
+      "missing_stripe_key": "Stripe is not configured yet. Add STRIPE_SECRET_KEY in Vercel or .env.local.",
+      "stripe_error": "Stripe could not create checkout. Please try again."
+    }
+  },
+  "product": {
+    "backToProducts": "Back to products",
+    "size": "Size",
+    "category": "Category",
+    "price": "Price",
+    "quantity": "Quantity",
+    "checkout": "Checkout Now",
+    "addToCart": "Add to cart",
+    "paymentMethods": "Payments accepted: Visa, Mastercard, Amex, and crypto.",
+    "researchNotice": "Supplied for laboratory research use only.",
+    "notFound": "Product not found",
+    "descriptionTitle": "Description",
+    "descriptionBody": "is supplied by Aura Peptides for laboratory research purchasing. Review the details, documentation status, and research-use terms before checkout.",
+    "documentationTitle": "Documentation",
+    "propertiesTitle": "Product information",
+    "relatedTitle": "Related products",
+    "relatedBody": "Similar products and commonly viewed research supplies.",
+    "sds": "Safety Data Sheet",
+    "coa": "Certificate of Analysis",
+    "openCoa": "Open certificate image",
+    "closeCoa": "Close certificate image",
+    "availableOnRequest": "Available on request",
+    "documentationBody": "Batch documents and safety information can be requested before ordering.",
+    "productLabel": "Product",
+    "compositionLabel": "Composition",
+    "materialLabel": "Material",
+    "formatLabel": "Format",
+    "termsLabel": "Terms",
+    "singleMaterial": "Single research material",
+    "laboratorySupply": "Laboratory supply item",
+    "lyophilizedPowder": "Lyophilized research powder",
+    "researchUseTerms": "Laboratory research use only. Not for human, animal, diagnostic, food, cosmetic, or household use."
+  },
+  "researchGate": {
+    "title": "Disclaimer",
+    "lead": "All products on this website are supplied strictly for laboratory research purposes only.",
+    "body": "Products must not be used for human or animal consumption, diagnosing, treating, curing, or preventing any disease.",
+    "confirmLabel": "By clicking Agree, you confirm:",
+    "points": [
+      "You are at least 18 years of age.",
+      "You are a qualified researcher or purchasing for qualified laboratory research.",
+      "You will not use these products for human or animal consumption.",
+      "You accept responsibility for compliance with laws in your jurisdiction.",
+      "Any purchase will comply with Aura Peptides terms and research-use restrictions."
+    ],
+    "agree": "I Agree",
+    "disagree": "I Disagree",
+    "blocked": "You are not permitted to access this website due to insufficient qualifications."
+  },
+  "checkout": {
+    "successTitle": "Checkout started",
+    "successBody": "Stripe has received the checkout session. Keep your Stripe receipt for order reference.",
+    "cancelTitle": "Checkout cancelled",
+    "cancelBody": "Your cart remains on this device, so you can review it and checkout again.",
+    "backHome": "Return to store"
+  },
+  "stripe": {
+    "shippingName": "Australian standard dispatch",
+    "researchMessage": "Aura Peptides products are supplied for laboratory research use only and are not for human or animal consumption.",
+    "productDescription": "Research use only"
+  },
+  "pages": {
+    "faq": {
+      "title": "FAQs",
+      "kicker": "FAQ",
+      "headline": "Everything you need to know",
+      "intro": "Quick answers for ordering, research-use limits, product handling, and support.",
+      "sections": [
+        {
+          "title": "Product",
+          "items": [
+            {
+              "title": "Research Use Only / Not for Human Consumption",
+              "body": "Aura Peptides products are supplied solely for laboratory research. They are not medicines, foods, cosmetics, or products for human or animal use."
+            },
+            {
+              "title": "Product Testing",
+              "body": "Batch review, authentication, and documentation are prioritized. If you need a specific certificate or lot document, contact support before ordering."
+            },
+            {
+              "title": "Peptide Form",
+              "body": "Peptides are supplied in the form shown on each product listing. Keep materials cool, dry, sealed, and away from direct light unless a label says otherwise."
+            },
+            {
+              "title": "Storage Instructions",
+              "body": "Use the product label as the source of truth. Refrigeration or freezing is commonly preferred for longer-term stability."
+            }
+          ]
+        },
+        {
+          "title": "Shipping",
+          "items": [
+            {
+              "title": "Processing and Dispatch",
+              "body": "Orders are prepared during Australian business days. Large or special orders may need additional handling time."
+            },
+            {
+              "title": "Order Tracking",
+              "body": "When tracking is available, use the tracking page or contact support with your order email and reference number."
+            },
+            {
+              "title": "Missing, Damaged, or Wrong Items",
+              "body": "Report issues promptly with photos of the package and item so support can review and resolve the shipment."
+            }
+          ]
+        },
+        {
+          "title": "Account and Orders",
+          "items": [
+            {
+              "title": "Order Status",
+              "body": "Payment pending means payment is still being verified. Processing means the order is being prepared. Completed means dispatch has occurred."
+            },
+            {
+              "title": "Zero-Tolerance Policy",
+              "body": "Aura Peptides does not provide usage guidance. Any indication of misuse, abuse, or non-research intent may result in refusal of service."
+            }
+          ]
+        },
+        {
+          "title": "Payments",
+          "items": [
+            {
+              "title": "Stripe Checkout",
+              "body": "Checkout is handled through Stripe in AUD. Stripe may request billing, phone, and Australian shipping details."
+            },
+            {
+              "title": "Refunds and Disputes",
+              "body": "All orders are reviewed under the refunds and returns policy. Contact support before opening a dispute so the issue can be investigated."
+            }
+          ]
+        }
+      ]
+    },
+    "labResults": {
+      "title": "COA Library",
+      "intro": "Current lot documentation can be published here or requested from support before purchase.",
+      "statusLabel": "Current Lots",
+      "historyAction": "View COA history",
+      "pending": "Documentation available on request"
+    },
+    "tracking": {
+      "title": "Order Tracking",
+      "intro": "Track your order status using your order reference and billing email.",
+      "instructions": "Enter the details from your receipt or Stripe confirmation. If tracking is not yet available, contact support with the same details.",
+      "orderId": "Order ID",
+      "billingEmail": "Billing email",
+      "action": "Track",
+      "note": "Live courier lookup can be connected when fulfillment data is available."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "supportInfo": "Support Information",
+      "hoursTitle": "Support Hours",
+      "hoursBody": "Monday through Friday, 9:00 AM - 5:00 PM AEST, excluding public holidays.",
+      "responseTitle": "Response Times",
+      "responseBody": "Most ordering and shipping requests receive a response within one business day. Peak periods may take longer.",
+      "limitationsTitle": "Support Limitations",
+      "limitationsBody": "Support is limited to shipping, payments, product documentation, and order matters. Aura Peptides does not provide usage, dosing, or application guidance.",
+      "helpTitle": "Need Help?",
+      "helpBody": "For fast ordering support, message Aura Peptides on Telegram.",
+      "coaTitle": "Certificate of Analysis",
+      "coaBody": "Visit the COA Library or contact support for available documentation.",
+      "trackingTitle": "Order Tracking",
+      "trackingBody": "Track an order using the order tracking page.",
+      "email": "Your email",
+      "order": "Order number or phone number",
+      "issue": "Issue",
+      "issueOptions": ["Tracking/Shipping", "Payment/Billing", "Order Damage/Incomplete", "Other"],
+      "message": "Your message",
+      "noticeTitle": "Before You Continue",
+      "noticeBody": "Aura Peptides does not provide recommendations on product usage or research applications. Researchers are responsible for qualified protocols and compliance.",
+      "policyTitle": "Zero Tolerance Policy",
+      "policyBody": "Any indication of misuse or abuse of research materials may result in refusal of service.",
+      "acknowledge": "I acknowledge and agree to the Important Notice and Zero Tolerance Policy stated above",
+      "telegramAction": "Message on Telegram"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "These terms govern access to Aura Peptides and purchases made through aurapeptides.com.au.",
+      "sections": [
+        {
+          "title": "Research-Use Restriction",
+          "body": "Products are supplied for laboratory research only. They are not intended for human or animal consumption, medical use, food use, cosmetic use, or household use."
+        },
+        {
+          "title": "Customer Responsibility",
+          "body": "Customers are responsible for ensuring they are qualified to purchase, possess, store, and use research materials in their jurisdiction."
+        },
+        {
+          "title": "No Medical Advice",
+          "body": "Information on this website is provided for catalog and ordering purposes only and must not be interpreted as medical, veterinary, or research protocol advice."
+        },
+        {
+          "title": "Order Review",
+          "body": "Aura Peptides may refuse or cancel orders that appear inconsistent with research-use requirements or compliance obligations."
+        },
+        {
+          "title": "Stripe Payments",
+          "body": "Payment processing is provided by Stripe. Orders are not accepted until checkout is completed and payment is confirmed."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Refunds & Returns",
+      "intro": "Because Aura Peptides supplies research materials, all order issues are reviewed carefully for product integrity and chain-of-custody.",
+      "sections": [
+        {
+          "title": "All Sales Reviewed Case-by-Case",
+          "body": "Refunds, replacements, or credits are not automatic. Contact support with your order details and photos where relevant."
+        },
+        {
+          "title": "Damaged or Incorrect Items",
+          "body": "Report damaged, missing, or incorrect items within 7 days of delivery. Include packaging photos and product photos for review."
+        },
+        {
+          "title": "Address Errors",
+          "body": "Customers are responsible for entering accurate shipping information. Contact support immediately if an address needs correction before dispatch."
+        },
+        {
+          "title": "Cold Chain and Handling",
+          "body": "Follow storage instructions on the label when received. Aura Peptides cannot control product handling after delivery."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "domain": "aurapeptides.com.au",
+    "telegram": "@Aura_Peptides_AU",
+    "instagramUrl": "https://www.instagram.com/aura_peptides_au",
+    "instagramLabel": "Aura Peptides on Instagram",
+    "tiktokUrl": "https://www.tiktok.com/@aurapeptidesau",
+    "tiktokLabel": "Aura Peptides on TikTok",
+    "telegramUrl": "https://t.me/Aura_Peptides_AU",
+    "telegramLabel": "Aura Peptides on Telegram",
+    "socialLabel": "Social links",
+    "tagline": "Specialized peptides advancing Australian laboratory research supply.",
+    "newsletterTitle": "Aura Newsletter",
+    "disclaimer": "Disclaimer: These products are intended for laboratory research purposes only, and are not for human or animal consumption. They are not intended to diagnose, treat, cure, or prevent any disease and must not be used as a food, drug, cosmetic, or household product.",
+    "compliance": "By accessing this website or purchasing from Aura Peptides, you accept responsibility for compliance with applicable laws and understand that no information here should be treated as medical advice.",
+    "termsNotice": "You also acknowledge that purchases are governed by the Aura Peptides Terms of Service and research-use restrictions.",
+    "abn": "ABN 86 124 687 890",
+    "copyright": "Aura Peptides. All rights reserved."
+  }
+}
