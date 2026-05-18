@@ -19,8 +19,8 @@
     "contact": "Contact Us",
     "cart": "Cart",
     "primaryLabel": "Primary navigation",
-    "products": "Products",
-    "productDirectory": "Products",
+    "products": "\n",
+    "productDirectory": "\n",
     "powders": "Powders",
     "bacWater": "BAC Water",
     "needlesWipes": "Needles & Wipes",
@@ -99,7 +99,7 @@
     ]
   },
   "catalog": {
-    "title": "Products",
+    "title": "\n",
     "subtitle": "Browse the Aura Peptides products currently available for laboratory research supply.",
     "searchLabel": "Search catalog",
     "searchPlaceholder": "Search peptides, stacks, essentials",
