@@ -1205,6 +1205,19 @@ body {
   object-fit: contain;
 }
 
+.hero-banner-image-mobile {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .hero-banner-image-desktop {
+    display: none;
+  }
+  .hero-banner-image-mobile {
+    display: block;
+  }
+}
+
 .hero-banner-cta {
   position: absolute;
   /* Aligned with the headline text baked into the banner image (~24% from left) */
