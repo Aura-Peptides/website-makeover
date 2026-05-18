@@ -44,13 +44,13 @@ export default function Home() {
         </Link>
       </section>
 
-      <HomePopularProducts copy={copy} />
-
       <div className="mobile-inventory-cta">
         <Link className="button button-secondary" href="/products">
           Search Inventory
         </Link>
       </div>
+
+      <HomePopularProducts copy={copy} />
 
       <section className="trust-row">
         {copy.home.trust.map((item, index) => {
