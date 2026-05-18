@@ -2429,6 +2429,10 @@ h3 {
   font-size: 1.1rem;
 }
 
+.mobile-filters-toggle {
+  display: none;
+}
+
 .catalog-tools {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(170px, 220px);
