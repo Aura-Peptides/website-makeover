@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       <div className="mobile-inventory-cta">
-        <Link className="button button-secondary" href="/products">
+        <Link className="button button-primary" href="/products">
           Search Inventory
         </Link>
       </div>
