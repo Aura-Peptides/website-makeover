@@ -153,12 +153,69 @@ export function SiteFooter({ copy }: { copy: SiteCopy }) {
 
   return (
     <footer className="site-footer">
+      <div className="footer-brand">
+        <Image src="/images/aura-logo.png" alt="" width={72} height={72} className="footer-logo" unoptimized />
+        <p>{copy.footer.tagline}</p>
+        <div className="footer-social" aria-label={copy.footer.socialLabel}>
+          <a
+            href={copy.footer.instagramUrl}
+            aria-label={copy.footer.instagramLabel}
+            title={copy.footer.instagramLabel}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <InstagramIcon />
+          </a>
+          <a
+            href={copy.footer.tiktokUrl}
+            aria-label={copy.footer.tiktokLabel}
+            title={copy.footer.tiktokLabel}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TikTokIcon />
+          </a>
+          <a
+            href={copy.footer.telegramUrl}
+            aria-label={copy.footer.telegramLabel}
+            title={copy.footer.telegramLabel}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TelegramIcon />
+          </a>
+        </div>
+      </div>
+
+      <div className="footer-links">
+        <section>
+          <h3>{copy.navigation.primaryLabel}</h3>
+          <Link href="/">{copy.navigation.home}</Link>
+          <Link href="/products">{copy.navigation.products}</Link>
+          <Link href="/info">{copy.navigation.info}</Link>
+          <Link href="/faqs">{copy.navigation.faqs}</Link>
+          <Link href="/contact-us">{copy.navigation.contact}</Link>
+        </section>
+        <section>
+          <h3>{copy.navigation.products}</h3>
+          <Link href="/products#peptides">{copy.navigation.peptides}</Link>
+          <Link href="/products#stacks">{copy.navigation.stacks}</Link>
+          <Link href="/products#essentials">{copy.navigation.essentials}</Link>
+          <a href={copy.footer.telegramUrl} target="_blank" rel="noreferrer">
+            {copy.footer.telegram}
+          </a>
+        </section>
+      </div>
+
       <div className="footer-disclaimer">
         <h2>{copy.footer.newsletterTitle}</h2>
-      </div>
-      <div className="footer-links text-2xl">
-        {/* links hidden as part of UI reduction or moved here if needed, 
-            but the request was to simplify the text to just "Aura Newsletter" and change class */}
+        <p>{copy.footer.disclaimer}</p>
+        <p>{copy.footer.compliance}</p>
+        <p>{copy.footer.termsNotice}</p>
+        <small>{copy.footer.abn}</small>
+        <small>
+          © {year} {copy.footer.copyright}
+        </small>
       </div>
     </footer>
   );
