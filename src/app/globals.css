@@ -1665,7 +1665,7 @@ h3 {
   padding: clamp(132px, 13vw, 176px) clamp(18px, 4vw, 56px) clamp(54px, 7vw, 96px);
   background:
     radial-gradient(circle at top left, rgba(209, 163, 90, 0.16), transparent 30%),
-    #ffffff;
+    #f4f1ea;
 }
 
 .product-detail-art {
@@ -1676,7 +1676,7 @@ h3 {
   border: 1px solid var(--border-light);
   border-radius: 22px;
   background:
-    linear-gradient(145deg, #ffffff, #edf1f6),
+    linear-gradient(145deg, #f4f1ea, #ece7db),
     radial-gradient(circle at center, rgba(209, 163, 90, 0.16), transparent 50%);
   box-shadow: var(--shadow-soft);
 }
@@ -2268,7 +2268,7 @@ h3 {
 .product-art {
   border-bottom: 1px solid var(--border-light);
   background:
-    linear-gradient(145deg, #ffffff, #edf1f6),
+    linear-gradient(145deg, #f4f1ea, #ece7db),
     radial-gradient(circle at center, rgba(209, 163, 90, 0.12), transparent 50%);
 }
 
@@ -2458,7 +2458,7 @@ h3 {
   background:
     linear-gradient(45deg, transparent 50%, var(--gold-soft) 50%) calc(100% - 21px) 50% / 6px 6px no-repeat,
     linear-gradient(135deg, var(--gold-soft) 50%, transparent 50%) calc(100% - 15px) 50% / 6px 6px no-repeat,
-    #ffffff;
+    #f4f1ea;
 }
 
 .catalog-search input:focus,
