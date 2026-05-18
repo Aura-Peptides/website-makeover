@@ -1208,7 +1208,7 @@ body {
 .hero-banner-cta {
   position: absolute;
   /* Aligned with the headline text baked into the banner image (~24% from left) */
-  left: clamp(48px, 24%, 520px);
+  left: clamp(36px, 19%, 420px);
   top: 66%;
   min-height: 38px;
   padding-inline: 22px;
@@ -3771,7 +3771,7 @@ summary {
   }
 
   .hero-banner-cta {
-    left: clamp(28px, 24%, 280px);
+    left: clamp(20px, 19%, 220px);
     top: 65%;
     min-height: 28px;
     padding-inline: 12px;
