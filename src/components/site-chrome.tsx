@@ -95,17 +95,17 @@ export function SiteHeader({ copy, cartCount = 0 }: SiteHeaderProps) {
             </Link>
             <span className="nav-dropdown-panel">
               <strong>{copy.navigation.categories}</strong>
-              <Link href="/products#powders" onClick={() => setIsMenuOpen(false)}>
-                {copy.navigation.powders}
+              <Link href="/products" onClick={() => setIsMenuOpen(false)}>
+                {copy.catalog.all}
+              </Link>
+              <Link href="/products#peptides" onClick={() => setIsMenuOpen(false)}>
+                {copy.navigation.peptides}
               </Link>
               <Link href="/products#stacks" onClick={() => setIsMenuOpen(false)}>
                 {copy.navigation.stacks}
               </Link>
-              <Link href="/products#bac-water" onClick={() => setIsMenuOpen(false)}>
-                {copy.navigation.bacWater}
-              </Link>
-              <Link href="/products#needles-wipes" onClick={() => setIsMenuOpen(false)}>
-                {copy.navigation.needlesWipes}
+              <Link href="/products#essentials" onClick={() => setIsMenuOpen(false)}>
+                {copy.navigation.essentials}
               </Link>
             </span>
           </span>
@@ -198,10 +198,9 @@ export function SiteFooter({ copy }: { copy: SiteCopy }) {
         </section>
         <section>
           <h3>{copy.navigation.products}</h3>
-          <Link href="/products#powders">{copy.navigation.powders}</Link>
+          <Link href="/products#peptides">{copy.navigation.peptides}</Link>
           <Link href="/products#stacks">{copy.navigation.stacks}</Link>
-          <Link href="/products#bac-water">{copy.navigation.bacWater}</Link>
-          <Link href="/products#needles-wipes">{copy.navigation.needlesWipes}</Link>
+          <Link href="/products#essentials">{copy.navigation.essentials}</Link>
           <a href={copy.footer.telegramUrl} target="_blank" rel="noreferrer">
             {copy.footer.telegram}
           </a>
