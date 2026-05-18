@@ -30,7 +30,7 @@ export default function Home() {
           className="hero-banner-image"
           unoptimized
         />
-        <Link className="button button-secondary hero-banner-cta" href="/products">
+        <Link className="button button-secondary hero-banner-cta px-[30px]" href="/products">
           Search Inventory
         </Link>
       </section>
