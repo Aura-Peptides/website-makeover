@@ -198,10 +198,9 @@ export function SiteFooter({ copy }: { copy: SiteCopy }) {
         </section>
         <section>
           <h3>{copy.navigation.products}</h3>
-          <Link href="/products#powders">{copy.navigation.powders}</Link>
+          <Link href="/products#peptides">{copy.navigation.peptides}</Link>
           <Link href="/products#stacks">{copy.navigation.stacks}</Link>
-          <Link href="/products#bac-water">{copy.navigation.bacWater}</Link>
-          <Link href="/products#needles-wipes">{copy.navigation.needlesWipes}</Link>
+          <Link href="/products#essentials">{copy.navigation.essentials}</Link>
           <a href={copy.footer.telegramUrl} target="_blank" rel="noreferrer">
             {copy.footer.telegram}
           </a>
