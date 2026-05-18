@@ -3845,12 +3845,14 @@ summary {
     margin-top: 61px;
   }
 
-  .hero-banner-cta {
-    left: clamp(23px, 20.7%, 242px);
-    top: 65%;
-    min-height: 28px;
-    padding-inline: 12px;
-    font-size: 0.68rem;
+  .hero-banner-cta-desktop {
+    display: none;
+  }
+
+  .mobile-inventory-cta {
+    display: flex;
+    justify-content: center;
+    padding: 8px 14px 20px;
   }
 
   .popular-products {
